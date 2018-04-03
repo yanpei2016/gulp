@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/* ----------css reset---------- */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li,
+pre,
+fieldset, button, input, textarea,
+th, td, dialog {
+    margin: 0;
+    padding: 0;
+}
+
+input, textarea {
+    border: 0 none;
+    box-shadow: none;
+    outline: none;
+}
+
+body,
+button, input, select, textarea {
+    font: 14px/1.42858 "微软雅黑", "Microsoft Yahei", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Microsoft Yahei";
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+h4, h5, h6 {
+    font-size: 100%;
+}
+
+address, cite, dfn, em, i, var {
+    font-style: normal;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+legend {
+    color: #000;
+}
+
+fieldset, img {
+    border: none;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+input,
+textarea,
+dialog {
+    border: 0;
+    ouline: 0;
+    -webkit-appearance: none;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+/*清除浮动*/
+.clearfix {
+    *zoom: 1;
+    &:after {
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        content: " ";
+        clear: both;
+        height: 0;
+    }
+}
+
+/* ----------css reset end---------- */
